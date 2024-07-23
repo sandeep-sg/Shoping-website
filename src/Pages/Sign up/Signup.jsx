@@ -19,7 +19,7 @@ const Signup = () => {
     email: "",
     password: "",
   });
-  const { setUsername} = useContext(Context);
+  const { setUsername } = useContext(Context);
 
   // handle form inputs......
   const handleInput = (e) => {

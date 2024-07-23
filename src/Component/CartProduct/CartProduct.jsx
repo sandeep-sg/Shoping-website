@@ -10,7 +10,7 @@ const CartProduct = ({ cartItems }) => {
   const deleteItemId = (id) => {
     setCartDeleteitemId([...cartDeleteItemId, id]);
     // increase the cart quantity when user delete the item...
-    setCartCount(cartCount => cartCount-1);
+    setCartCount((cartCount) => cartCount - 1);
   };
   return (
     <div className="cart-container">
