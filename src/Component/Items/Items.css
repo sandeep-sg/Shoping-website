@@ -1,0 +1,22 @@
+.item-container {
+  border: 1px solid #ccc;
+  width: 240px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.item-container .item-img img {
+  width: 100%;
+  aspect-ratio: 1/1.1;
+}
+.item-container .item-title {
+  font-size: 0.8rem;
+  color: #3c3c3c;
+  margin: 10px 0 5px;
+}
+.item-container .item-price {
+  font-size: 1rem;
+}
+.item-container:hover{
+    box-shadow: 0 0 10px #cccccc95;
+    border: none;
+}

@@ -1,0 +1,10 @@
+.home-products-container h1 {
+  margin: 20px 60px;
+  color: #424440d0;
+}
+.home-popular-products {
+  padding: 20px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+}

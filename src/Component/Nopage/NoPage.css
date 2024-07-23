@@ -1,0 +1,14 @@
+.nopage-container .nopage-message{
+    margin:221.5px auto;
+    width: 600px;
+}
+.nopage-container .nopage-message p{
+  font-size: 50px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .nopage-container .nopage-message p{
+    font-size: 30px;
+    text-align: center;
+  }
+  }
